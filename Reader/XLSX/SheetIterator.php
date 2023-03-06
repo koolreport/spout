@@ -80,8 +80,8 @@ class SheetIterator implements IteratorInterface
      *
      * @return \Box\Spout\Reader\XLSX\Sheet
      */
-    // #[\ReturnTypeWillChange]
-    public function current(): mixed
+    #[\ReturnTypeWillChange]
+    public function current()
     {
         return $this->sheets[$this->currentSheetIndex];
     }
@@ -92,8 +92,8 @@ class SheetIterator implements IteratorInterface
      *
      * @return int
      */
-    // #[\ReturnTypeWillChange]
-    public function key(): mixed
+    #[\ReturnTypeWillChange]
+    public function key()
     {
         return $this->currentSheetIndex + 1;
     }
