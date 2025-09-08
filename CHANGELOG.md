@@ -1,6 +1,6 @@
 # Change Log
 
-## Version 3.4.1-dev
+## Version 3.4.1
 1. Update: work to 8.4
 
 ## Version 3.4.0
